@@ -1,0 +1,21 @@
+// google fonts
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700&display=swap");
+// @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300&display=swap");
+
+// bulma vars and utils
+@import "../../node_modules/bulma/sass/utilities/initial-variables";
+
+// our vars (overriding bulma vars)
+@import "_variables";
+
+// bulma itself
+@import "../../node_modules/bulma/bulma";
+
+// our helpers
+@import "_helpers";
+
+// our screens
+@import "_screens";
+
+//rest of our css
+@import "_main";
